@@ -1,0 +1,78 @@
+Repository Initialization:  git init
+Cloning a Repository:  git clone <repository_url>
+
+*** Committing Changes---Commit changes with a message - Pushing Changes to GitHub ***
+
+git add <file(s)>
+git commit -m "Commit message"
+git push origin <branch_name>
+
+git pull origin <branch_name>
+
+
+*** Viewing Git Status: ***
+git status
+
+*** Ignoring Files: ***
+Create a    .gitignore  file for ignored by Git.
+
+*** Checking Git History: View commit history: ***
+git log
+
+-- GitHub Authentication:
+* Configure your GitHub credentials: 
+***git config --global user.name "Your Name"***
+***git config --global user.email "your@email.com"***
+
+
+*** Branch ***
+Branching:
+ Create a new branch:  git branch <branch_name>
+ Switch to a different branch: git checkout <branch_name>
+Create and switch to a new branch: git checkout -b <new_branch_name>
+
+
+*** Merge changes from one branch into another ***
+git merge <branch_name>
+
+// Undoing Changes: 
+* Discard changes in your working directory: git checkout -- <file(s)>
+* Reset the last commit (use with caution): git reset --hard HEAD^
+
+
+
+// Fetching Updates: Fetch changes from a remote repository (GitHub):
+git fetch origin
+
+// Collaboration:   Add a remote repository (GitHub) as a remote:
+git remote add <remote_name> <repository_url>
+
+
+// Tagging Releases: Create a tag for a specific commit (e.g., for a release):
+git tag -a <tag_name> -m "Tag message"
+
+
+
+
+<!-- GitHub API Integration:
+
+Use GitHub API libraries or HTTP requests to interact with GitHub programmatically.
+GitHub Actions:
+
+Create workflows using GitHub Actions YAML files for automated tasks.
+GitHub Pages Deployment:
+
+Deploy a static website to GitHub Pages.
+GitHub Gists:
+
+Create and share code snippets and notes using GitHub Gists. -->
+
+
+
+
+
+
+
+
+
+

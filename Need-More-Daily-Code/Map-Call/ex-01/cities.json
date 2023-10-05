@@ -1,0 +1,45 @@
+{
+    "cities": [
+      {
+        "id": 1,
+        "name": "New York",
+        "category": "Metropolitan"
+      },
+      {
+        "id": 2,
+        "name": "San Francisco",
+        "category": "Metropolitan"
+      },
+      {
+        "id": 3,
+        "name": "Los Angeles",
+        "category": "Metropolitan"
+      },
+      {
+        "id": 4,
+        "name": "Chicago",
+        "category": "Metropolitan"
+      },
+      {
+        "id": 5,
+        "name": "Denver",
+        "category": "Metropolitan"
+      },
+      {
+        "id": 6,
+        "name": "Austin",
+        "category": "Urban"
+      },
+      {
+        "id": 7,
+        "name": "Seattle",
+        "category": "Urban"
+      },
+      {
+        "id": 8,
+        "name": "Miami",
+        "category": "Urban"
+      }
+    ]
+  }
+  

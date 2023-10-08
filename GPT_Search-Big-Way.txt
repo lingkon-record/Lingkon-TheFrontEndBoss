@@ -1,0 +1,3 @@
+this is old component, i want to update now - just design part, not function
+point 1: ignore and delete overflow part
+point 2 : re design new part - when i upload file , it show like table and give me file title,file size and a delete button for delete  

@@ -1,0 +1,10 @@
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+  email: "john@example.com"
+};
+
+const entries = Object.entries(person);
+
+console.log(entries);

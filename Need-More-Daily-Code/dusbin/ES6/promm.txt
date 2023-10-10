@@ -1,0 +1,13 @@
+n this example:
+
+The fetchData function returns a Promise that simulates fetching data from an API after a 2-second delay. It can either resolve with a success message or reject with an error message.
+
+We call fetchData() and use the .then() method to handle the resolved promise when data is successfully fetched. In this case, we log the received data and return an uppercase version of the message.
+
+We chain another .then() to process the uppercase message.
+
+We use .catch() to handle any errors that might occur during the Promise's execution.
+
+Finally, we use .finally() to perform cleanup or other actions that need to happen regardless of whether the Promise was fulfilled or rejected.
+
+You can uncomment the reject line inside the fetchData function to simulate an error and see how the error handling works.

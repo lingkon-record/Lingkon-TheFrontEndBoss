@@ -1,0 +1,4 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+
+
+show me try catch with many example in js

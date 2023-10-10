@@ -1,0 +1,1 @@
+// for ( let mango = 10; mango < 100; mango++) {console.log("Walking east one step")}
